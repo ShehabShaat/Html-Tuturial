@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> book store</title>
+        <meta
+                name="description"
+              content="this is our meta store">
+    <!--
+        <style>
+            body {
+                background-color: white;
+            }
+        </style>
+         -->
+    <!--
+     <script ></script>
+    -->
+
+        <link
+                rel="stylesheet"
+                href="">
+    </head>
+    <body>
+        <!--heading-->
+        <h1 id="title">Book Store</h1>
+           <h2>Chapter Title Inside Book</h2>
+              <h3>Story Title Inside Chapter</h3>
+        <h4>this is my store , welcome</h4>
+        <h5>this is my store , welcome</h5>
+        <h6>this is my store , welcome</h6>
+        this is my store , welcome
+         <!--  paragraph  -->
+        <p class="one">this is my store , welcome1</p> <!-- class => global attribute -->
+        <p hidden>this is my store , welcome2</p> <!-- class => global attribute -->
+        <p class="two">We Have a Big Sale</p> <p class="three">Test</p>
+        <!--image and deal with paths-->
+        <img src="https://" alt=""> <!-- alt => alternate text || src => source-->
+        <img src="files/img1.png" alt="">
+        <img src="python.png" alt="" >
+<!--        <img src="../../img2.png" alt="will not show" width="200" height="200">-->
+
+         <!--formatting-->
+        <p>This Is my <b>Book Store</b> , welcome1</p> <!-- bold => formatting -->
+        <p>This Is my <strong>Book Store</strong> , welcome1</p> <!-- strong [important text] => formatting -->
+        <p>This Is my <i>Book Store</i> , welcome1</p> <!-- italic => formatting -->
+        <p>This Is my <em>Book Store</em> , welcome1</p> <!-- emphasized [important text] => formatting -->
+        <p>This Is my <mark>Book Store</mark> , welcome1</p> <!-- mark [highlight text] => formatting -->
+        <p>This Is my <u>Book Store</u> , welcome1</p> <!-- underline => formatting -->
+        <p>This Is my <small>Book Store</small> , welcome1</p> <!-- small text[nots or copy write]  => formatting -->
+        <p>This Is my <del>Book Store</del> , welcome1</p> <!-- deleted text  => formatting -->
+        <p> <del>100</del> 80 </p> <!-- deleted text  => formatting -->
+        <p>This Is my <ins>Book Store</ins> , welcome1</p> <!-- inserted text[new text inserted]  => formatting -->
+        <p><del>100</del><ins> 80</ins> </p> <!-- inserted text[new text inserted]   => formatting -->
+        <p>Co<sub>2</sub></p> <!-- subscript  => formatting -->
+        <p>2<sup>2</sup> = 4</p> <!-- superscript  => formatting -->
+
+        <!--links Anchor Tag [very important]-->
+
+        <!-- <a></a> this is inline element but not paragraph >-->
+        <a href="https://google.com" target="_blank" >Google</a> <!-- _blank means [google page will be open in ather new page]-->
+        <a href="https://facebook.com" title="go to link">facebook</a> <!-- title=> like tool tip -->
+        <a href="test.html" title="go to page " target="_blank">test</a> <!-- title=> like tool tip -->
+        <a href="#title" title="go to title ">title</a> <!-- #id=> go to title or thing -->
+        <a href="mailto:shaatshehab@gmail.com" title="go to email ">my email</a> <!-- #id=> go to title or thing -->
+        <!--List-->
+        <ul> <!-- ul => unordered List-->
+            <li>Html</li> <!-- li => List item-->
+            <li>Css</li>
+            <li> Js
+                <ul>
+                    <li>Node Js</li>
+                    <li>React Js</li>
+                </ul>
+            </li> <!--nested list-->
+            <li>Python</li>
+
+        </ul>
+        <ol>  <!-- ol => ordered List-->
+            <li>name</li>
+            <li>address</li>
+            <li>age</li>
+            <li>id</li>
+        </ol>
+        <dl><!--dl => description list-->
+            <dt>Html</dt>
+            <dd>language web</dd><!-- <dd> => description Html-->
+             <dt>Css</dt>
+            <dd>language web</dd> <!-- <dd> => description Css-->
+        </dl>
+
+        <!--attribute un/order list-->
+        <ol reversed>  <!-- reversed => reversed ordered List -->
+            <li>name</li>
+            <li>address</li>
+            <li>age</li>
+            <li>id</li>
+        </ol>
+        <ol start="100">  <!-- start => [start from 100] ordered List -->
+            <li>name</li>
+            <li>address</li>
+            <li>age</li>
+            <li>id</li>
+        </ol>
+        <ol type="a">  <!-- type => [start from 100] ordered List -->
+            <li>name</li>
+            <li>address</li>
+            <li>age</li>
+            <li>id</li>
+        </ol>
+        <ol >
+            <li value="50">name</li><!-- value => [start from 50] ordered List -->
+            <li>address</li>
+            <li>age</li>
+            <li>id</li>
+        </ol>
+
+        <!--Table-->
+        <table border="1" cellpadding="2px">
+            <caption>student marks</caption> <!--title table-->
+            <!--thead-->
+            <thead>
+                <tr> <!--table row-->
+                    <th>first name</th> <!--table header => [bold]-->
+                    <th>middle name</th>
+                    <td>last name</td><!--table data cell -->
+                    <td>marks</td>
+
+                </tr>
+
+            </thead>
+            <!--tbody-->
+            <tbody>
+                <tr> <!--table row-->
+                    <td>shehab</td> <!--table data cell-->
+                    <td>essam</td>
+                    <td>shaat</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>shehab</td>
+                    <td>essam</td>
+                    <td>shaat</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>shehab</td>
+                    <td>essam</td>
+                    <td>shaat</td>
+                    <td>100</td>
+                </tr>
+
+            </tbody>
+            <!--tfoot-->
+            <tfoot>
+                <tr>
+                    <td colspan="2">total</td> <!--marge cell-->
+                    <td colspan="2">300</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+
+        <!--Span and Break-->
+        <span>Word</span> <!--this is inline element -->
+        <p>this is <span>second</span> paragraph</p> <!--this is inline element -->
+        <p>this is <br>first paragraph</p> <!--br => new line -->
+        <hr> <!--hr => create line --> <!--this is block element -->
+        <p>this is <br>second paragraph</p> <!--br => new line -->
+        <hr>
+
+        <!--Div and How To use-->
+        <div>
+            <div class="one">
+                <h1>Book Store</h1>
+                <p>This Is my <b>Book Store</b> , welcome1</p> <!-- bold => formatting -->
+                <p>this is <span>second</span> paragraph</p> <!--this is inline element -->
+            </div>
+            <div class="two">
+                <h1>Book Store</h1>
+                <p>This Is my <b>Book Store</b> , welcome2</p> <!-- bold => formatting -->
+                <p>this is <span>second</span> paragraph</p> <!--this is inline element -->
+            </div>
+            <div class="three">
+                <h1>Book Store</h1>
+                <p>This Is my <b>Book Store</b> , welcome1</p> <!-- bold => formatting -->
+                <p>this is <span>second</span> paragraph</p> <!--this is inline element -->
+            </div>
+
+        </div>
+
+        <!--Html Entities-->
+        <div>this is my &lt;p&gt; div &amp; &asymp; &copy; &radic; </div>
+
+        <!--Semantic Element-->
+        <header>Head of Website </header>
+        <nav>Link - Link - Link</nav>
+        <section>
+            <section></section>
+            <aside></aside><!--sidebar-->
+            <article></article>
+            <footer></footer>
+        </section>
+        <img src="files/img.png" width="416" height="292" alt="">
+
+
+
+
+
+
+
+    </body>
+</html>
+
+<!-- this is comment -->
+<!-- this is comment created by ctrl + ? -->
+<!--
+<!DOCTYPE html>
+لازم تكون في اي صفحة بتشتغلها طالما بتشتغل بالاصدار الخامس من Html
+عشان نتجنب مشاكل التوافقية
+-->
+<!--review global attribute list -->
