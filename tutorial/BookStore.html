@@ -202,13 +202,62 @@
             <article></article>
             <footer></footer>
         </section>
-        <img src="files/img.png" width="416" height="292" alt="">
 
+        <hr>
+        <hr>
 
+        <!--Layout With Semantic Element-->
+        <header>
+            <p><h1>logo</h1></p>
+        </header>
+        <hr>
+        <nav>
+            <li>link1</li>
+            <li>link2</li>
+            <li>link3</li>
+            <li>link4</li>
+            <li>link5</li>
+            <li>link6</li>
+            <li>link7</li>
+        </nav>
+        <hr>
+        <section>
+            <figure>
+                <img src="files/img.png" width="416" height="292" alt="">
+                <figcaption>Caption of the Image</figcaption>
+            </figure>
+            <aside>sidebar</aside><!--sidebar-->
+            <article>article</article>
+            <footer>footer</footer>
+        </section>
+        <br>
+        <!--audio-->
+        <audio controls  muted >
+            <source src="files/Recorded%20Audio%2029-ذو%C2%A0القعدة-1443%2009-43-31%20م.mp3" type="audio/mpeg">
+            <source src="files/Recorded%20Audio%2029-ذو%C2%A0القعدة-1443%2009-43-31%20م.wav" type="audio/wav">
+            your browser does not support audio tag
+        </audio>
+        <!--        <audio  controls autoplay  loop >
+           <source src="files/Recorded%20Audio%2029-ذو%C2%A0القعدة-1443%2009-43-31%20م.mp3" type="audio/mpeg">
+          <source src="files/Recorded%20Audio%2029-ذو%C2%A0القعدة-1443%2009-43-31%20م.wav" type="audio/wav">
+            your browser does not support audio tag
+        </audio>-->
 
+        <!--video-->
+        <video controls width="600" height="400" >
 
+            <source src="files/Learn%20Python%20in%20Arabic%20%23094%20-%20Type%20Hinting.mp4" type="video/mp4">
+            your browser does not support video tag
+        </video>
 
+        <video controls width="600" height="400" poster="files/img.png" >
 
+            <source src="files/Learn%20Python%20in%20Arabic%20%23094%20-%20Type%20Hinting.mp4" type="video/mp4">
+            your browser does not support video tag
+
+            <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English"> <!-- تستعمل لملف الترجمات-->
+            <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="italian"> <!-- تستعمل لملف الترجمات-->
+        </video>
 
     </body>
 </html>
