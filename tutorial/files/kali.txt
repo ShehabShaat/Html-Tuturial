@@ -1,0 +1,15 @@
+sudo su
+fdisk -l
+
+mkdir -p /mnt/mykali
+mount /dev/sda3 /mnt/mykali
+echo "/ union" > /mnt/mykali/persistence.conf
+umount /dev/sda3
+
+
+username : Kali
+pass:Kali
+
+https://www.youtube.com/watch?v=7ldlF7UxbD8&t=0s
+
+https://www.youtube.com/watch?v=ySDbm2ZuSgU
